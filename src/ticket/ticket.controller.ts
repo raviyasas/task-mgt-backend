@@ -4,8 +4,7 @@ import { CreateTicketDto } from './dto/create-ticket.dto';
 import { UpdateTicketDto } from './dto/update-ticket.dto';
 import { CurrentUser } from 'src/users/decorators/current-user-decorator';
 import { User } from 'src/users/entities/user.entity';
-import { AuthGuard } from 'src/users/guards/auth.guard';
-import { ApproveTicketDto } from './dto/approve-ticket.dto';
+import { AuthGuard } from 'src/users/guards/auth.guard'; 
 import { AdminGuard } from 'src/users/guards/admin.guard';
 
 @Controller('ticket')
